@@ -15,6 +15,7 @@ class ServiceController extends Controller
     {
         $services = Service::where('status', true)->get();
         return ServiceResource::collection($services);
+        
     }
 
     public function store(ServiceRequest $request)

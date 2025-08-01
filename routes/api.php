@@ -6,7 +6,6 @@ ServiceController,
 BookingController
 };
 
-
 use App\Http\Controllers\API\Admin\BookingController as AdminBookingController;
 
 Route::post('/register', [AuthController::class, 'register']);

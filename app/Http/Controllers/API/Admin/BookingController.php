@@ -14,5 +14,6 @@ class BookingController extends Controller
     {
         $bookings = Booking::with(['user', 'service'])->latest()->get();
         return BookingResource::collection($bookings);
+        
     }
 }

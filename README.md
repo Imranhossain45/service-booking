@@ -4,7 +4,7 @@ A simple RESTful API-based booking system built with Laravel.
 
 ## 🔧 Tech Stack
 
-- Laravel 10+
+- Laravel 12
 - Laravel Sanctum (API auth)
 - MySQL
 - L5-Swagger (API docs)

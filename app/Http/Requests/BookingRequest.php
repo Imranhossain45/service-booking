@@ -11,6 +11,7 @@ class BookingRequest extends FormRequest
     {
         return true;
     }
+    
 
     public function rules(): array
     {
